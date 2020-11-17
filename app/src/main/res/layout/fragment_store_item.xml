@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -24,74 +25,74 @@
         <TextView
             android:id="@+id/name"
             android:layout_width="0dp"
-            android:layout_height="24dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="萊爾富便利商店 高市海洋店"
             android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/favorStar"
             app:layout_constraintStart_toEndOf="@+id/image"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="萊爾富便利商店 高市海洋店" />
 
         <TextView
             android:id="@+id/type"
             android:layout_width="0dp"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="便利店"
             app:layout_constraintEnd_toStartOf="@+id/favorAmount"
             app:layout_constraintStart_toEndOf="@+id/image"
-            app:layout_constraintTop_toBottomOf="@+id/name" />
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            tools:text="便利店" />
 
         <TextView
             android:id="@+id/area"
             android:layout_width="0dp"
-            android:layout_height="20dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:text="楠梓校區"
             app:layout_constraintEnd_toStartOf="@+id/openTime"
             app:layout_constraintStart_toEndOf="@+id/image"
-            app:layout_constraintTop_toBottomOf="@+id/type" />
+            app:layout_constraintTop_toBottomOf="@+id/type"
+            tools:text="楠梓校區" />
 
         <TextView
             android:id="@+id/openTime"
-            android:layout_width="100dp"
-            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:background="#03A9F4"
             android:gravity="center"
-            android:text="00:00-24:00"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
             android:textColor="#FFFFFF"
             app:layout_constraintBaseline_toBaselineOf="@+id/area"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="00:00-24:00" />
 
         <TextView
             android:id="@+id/favorAmount"
-            android:layout_width="32dp"
-            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:gravity="center"
-            android:text="234"
             app:layout_constraintBaseline_toBaselineOf="@+id/type"
-            app:layout_constraintEnd_toEndOf="parent" />
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="234" />
 
         <ImageView
             android:id="@+id/favorStar"
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
-            android:layout_marginBottom="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/favorAmount"
+            app:layout_constraintBottom_toBottomOf="@+id/name"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/name"
             app:srcCompat="@android:drawable/btn_star_big_on" />
 
         <TextView
@@ -102,12 +103,11 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="消費滿10000減100 滿1000減10 滿100滿1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/image"
-            app:layout_constraintTop_toBottomOf="@+id/area" />
-
+            app:layout_constraintTop_toBottomOf="@+id/area"
+            tools:text="消費滿10000減100 滿1000減10 滿100滿1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
