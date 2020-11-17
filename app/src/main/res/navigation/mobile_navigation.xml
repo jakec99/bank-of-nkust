@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_wallet">
+
+    <fragment
+        android:id="@+id/nav_wallet"
+        android:name="com.example.bankofnkust.ui.wallet.WalletFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_wallet" />
+
+    <fragment
+        android:id="@+id/nav_store"
+        android:name="com.example.bankofnkust.ui.store.StoreFragment"
+        android:label="@string/menu_store"
+        tools:layout="@layout/fragment_store" />
+
+    <fragment
+        android:id="@+id/nav_note"
+        android:name="com.example.bankofnkust.ui.note.NoteFragment"
+        android:label="@string/menu_note"
+        android:launchMode="singleTop"
+        tools:layout="@layout/fragment_note" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.bankofnkust.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.bankofnkust.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>

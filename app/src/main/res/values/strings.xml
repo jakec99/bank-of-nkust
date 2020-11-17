@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">BANK OF NKUST</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">BANK OF NKUST</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_main">功能</string>
+    <string name="menu_more">更多</string>
+    <string name="menu_wallet">我的錢包</string>
+    <string name="menu_store">周邊店家</string>
+    <string name="menu_note">電子手賬</string>
+    <string name="menu_profile">賬戶資料</string>
+    <string name="menu_about">關於我們</string>
+
+    <string name="action_search">Google搜索</string>
+    <string name="action_bills">賬單</string>
+    <string name="action_cards">管理卡片</string>
+    <string name="under_construction">建設中……</string>
+
+    <string name="login">登入</string>
+    <string name="logout">登出</string>
+    <string name="register">註冊</string>
+    <string name="email">Email</string>
+    <string name="password">密碼</string>
+    <string name="password_confirm">確認密碼</string>
+    <string name="username">Username</string>
+    <string name="login_register">現在註冊！</string>
+    <string name="login_clear">清除</string>
+    <string name="login_remember">記住密碼</string>
+    <string name="invalid_email">Email格式不對欸</string>
+    <string name="invalid_password">密碼要大於5位喔</string>
+    <string name="invalid_password_confirm">兩次輸入的密碼不一樣欸</string>
+    <string name="login_success">歡迎回來:)</string>
+    <string name="login_failed">登錄失敗:(</string>
+    <string name="login_lost">登錄失效:(</string>
+    <string name="register_success">註冊成功:)</string>
+    <string name="register_failed">註冊失敗:(</string>
+    .
+    <string name="money">NT$</string>
+    <string name="wallet_title">我的零錢</string>
+    <string name="wallet_refresh">已刷新</string>
+    <string name="deposit">儲值</string>
+    <string name="deposit_way">儲值自</string>
+    <string name="deposit_card">中華郵政(1569)</string>
+    <string name="deposit_amount">儲值金額</string>
+    <string name="withdraw">提領</string>
+    <string name="withdraw_way">提領至</string>
+    <string name="withdraw_card">國泰世華(1569)</string>
+    <string name="withdraw_amount">提領金額</string>
+    <string name="transfer">轉賬</string>
+    <string name="transfer_way">轉賬至</string>
+    <string name="transfer_amount">轉賬金額</string>
+    <string name="transfer_username">收款用戶</string>
+    <string name="transfer_email">bankofnkust@nkust.edu.tw</string>
+    <string name="code_title">請輸入安全碼</string>
+    <string name="code_ok">確認</string>
+    <string name="code_cancel">取消</string>
+    <string name="success_deposit">儲值成功</string>
+    <string name="success_withdraw">提領成功</string>
+    <string name="fail_deposit">儲值失敗</string>
+    <string name="fail_withdraw">提領失敗</string>
+    <string name="fail_code">輸入的安全碼有誤，操作失敗</string>
+    <string name="fail_balance">零钱餘額不足，操作失敗</string>
+    <string name="fail_card_balance">銀行卡餘額不足，操作失敗</string>
+    <string name="fail_firebase">無法與數據庫連接，操作失敗</string>
+    <string name="fail_firebase_file">無法從數據庫獲取數據，操作失敗</string>
+
+    <string name="note_add">增加</string>
+    <string-array name="note_types">
+        <item>支出</item>
+        <item>收入</item>
+    </string-array>
+</resources>

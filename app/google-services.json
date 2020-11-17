@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "115847485653",
+    "firebase_url": "https://bankofnkust.firebaseio.com",
+    "project_id": "bankofnkust",
+    "storage_bucket": "bankofnkust.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115847485653:android:a4238f5b1547b5e16faa5c",
+        "android_client_info": {
+          "package_name": "com.example.bankofnkust"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115847485653-otj0f9dktr26rqqnn59shco7aotj6tpm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bankofnkust",
+            "certificate_hash": "9d616c85276b4c37df9958b33d3197f08a6f216e"
+          }
+        },
+        {
+          "client_id": "115847485653-btimebpgf050m7cpup07p5cq1uj55r57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1qi-IhOHsoWS3iVEDuQJ_Q-k7o-Hf15E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115847485653-btimebpgf050m7cpup07p5cq1uj55r57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
